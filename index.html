@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 4rem;
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 id="message">Coming Soon</h1>
+  <p>We're working hard to bring something awesome. Stay tuned!</p>
+
+  <script>
+    // You can add any interactive logic here if needed
+    console.log("Page loaded: Coming Soon");
+  </script>
+</body>
+</html>
